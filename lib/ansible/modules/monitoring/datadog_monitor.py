@@ -81,7 +81,7 @@ options:
     thresholds:
         description:
             - A dictionary of thresholds by status. This option is only available for service checks and metric alerts. Because each of them can have
-              multiple thresholds, we don't define them directly in the query."]
+              multiple thresholds, we don't define them directly in the query.
         default: {'ok': 1, 'critical': 1, 'warning': 1}
     locked:
         description: ["A boolean indicating whether changes to this monitor should be restricted to the creator or admins."]
